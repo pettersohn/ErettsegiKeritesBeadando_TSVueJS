@@ -6,7 +6,7 @@
       accept=".txt"
       :state="Boolean(file)"
       :placeholder="placeholder"
-      browse-text="Keresés..."
+      browse-text="Keresés"
       drop-placeholder="Dobja ide!"
     ></b-form-file>
   </b-form-group>

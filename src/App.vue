@@ -8,7 +8,7 @@
           <b-nav-item href="kerites.txt">kerites.txt</b-nav-item>
           <b-nav-item href="Kerítés_fel.pdf">Feladat.pdf</b-nav-item>
           <b-nav-item href="Kerítés_jav.pdf">Javítási.pdf</b-nav-item>
-          <b-nav-item href="https://github.com/pettersohn/KeritesVueJSBeadando.git">GitHub</b-nav-item>
+          <b-nav-item href="https://github.com/pettersohn/ErettsegiKeritesBeadando_TSVueJS">GitHub</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
