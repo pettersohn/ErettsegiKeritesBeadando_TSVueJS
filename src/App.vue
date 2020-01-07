@@ -42,22 +42,20 @@
       </b-tabs>
     </div>
     <div v-if="mutat" id="egyebek" style="float:right">
-      <b-tabs id="fajl">
-        <b-tab title="Utcakép">
-          <pre>
+      <div class="overflow-auto">
+        <pre>
 utcakep.txt fájl:
-{{ utcakep }}
+{{ utcakep.trim() }}
       </pre
-          >
-        </b-tab>
-        <b-tab title="A fájl tartalma">
-          <pre>
+        >
+      </div>
+      <div class="overflow-auto">
+        <pre>
 kerites.txt fájl:
-{{ txtSorai }}
+{{ txtSorai.trim() }}
       </pre
-          >
-        </b-tab>
-      </b-tabs>
+        >
+      </div>
     </div>
     <b-button v-if="mutat" pill variant="success" class="savebutton mx-auto">
       <TxtWriter title="utcakep.txt állomány mentése" :content="utcakep" filename="utcakep.txt" />
