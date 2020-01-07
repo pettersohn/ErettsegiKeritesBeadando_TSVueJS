@@ -9,6 +9,7 @@
           <b-nav-item href="Kerítés_fel.pdf">Feladat.pdf</b-nav-item>
           <b-nav-item href="Kerítés_jav.pdf">Javítási.pdf</b-nav-item>
           <b-nav-item href="https://github.com/pettersohn/ErettsegiKeritesBeadando_TSVueJS">GitHub</b-nav-item>
+          <b-nav-item href="https://kerites-pettersohn.netlify.com/">Netlify</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
