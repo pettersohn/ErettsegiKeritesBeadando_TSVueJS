@@ -42,7 +42,7 @@
         </b-tab>
       </b-tabs>
     </div>
-    <div v-if="mutat" id="egyebek" style="float:right">
+    <div v-if="mutat" id="egyebek" style="float:right" class="">
       <div class="overflow-auto">
         <pre>
 utcakep.txt fájl:
@@ -50,6 +50,8 @@ utcakep.txt fájl:
       </pre
         >
       </div>
+    </div>
+    <div v-if="mutat" id="egyebek" style="float:right">
       <div class="overflow-auto">
         <pre>
 kerites.txt fájl:
@@ -58,9 +60,11 @@ kerites.txt fájl:
         >
       </div>
     </div>
-    <b-button v-if="mutat" pill variant="success" class="savebutton mx-auto">
-      <TxtWriter title="utcakep.txt állomány mentése" :content="utcakep" filename="utcakep.txt" />
-    </b-button>
+    <div class="position-relative d-inline">
+      <b-button v-if="mutat" pill variant="success" class="savebutton mx-auto">
+        <TxtWriter title="utcakep.txt állomány mentése" :content="utcakep" filename="utcakep.txt" />
+      </b-button>
+    </div>
   </div>
 </template>
 
